@@ -6,7 +6,7 @@ name 'ug-status'
 description 'Player Status (hunger, thirsty, stress) for UgCore by UgDev'
 author 'UgDev'
 version '3.5'
-url 'https://github.com/UgDevOfc/ug-status'
+url 'https://github.com/ugcore-framework/ug-status'
 
 shared_scripts {
     '@ug-core/languages.lua',
@@ -28,7 +28,8 @@ server_scripts {
     'server/functions.lua',
     'server/status.lua',
     'server/events.lua',
-    'server/threads.lua'
+    'server/threads.lua',
+    'server/version.lua'
 }
 
 dependencies {

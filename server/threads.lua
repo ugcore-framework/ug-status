@@ -14,7 +14,7 @@ CreateThread(function ()
 			end
 		end
 		if #parameters > 0 then
-			MySQL.prepare('UPDATE users SET status = ? WHERE identifier = ?', parameters)
+			MySQL.prepare('UPDATE `users` SET `status` = ? WHERE `identifier` = ?', parameters)
 		end
 	end
 end)
